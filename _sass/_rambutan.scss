@@ -1,0 +1,275 @@
+$red-neon: 0 0 30px rgba(255,0,84,0.6),
+			0 0 60px rgba(255,0,84,0.4),
+			0 0 100px rgba(255,0,84,0.2),
+			0 0 90px rgba(255,0,84,0.1);
+
+$red-neon-double: 0 0 30px rgba(255,0,84,0.6),
+			0 0 60px rgba(255,0,84,0.4),
+			0 0 100px rgba(255,0,84,0.2),
+			0 0 90px rgba(255,0,84,0.1),
+      inset 0 0 30px rgba(255,0,84,0.6),
+      inset 0 0 60px rgba(255,0,84,0.4),
+			inset 0 0 100px rgba(255,0,84,0.2),
+			inset 0 0 90px rgba(255,0,84,0.1);
+
+
+
+$red-neon-double-light: 0 0 10px rgba(255,0,84,0.4),
+			0 0 30px rgba(255,0,84,0.2),
+			0 0 20px rgba(255,0,84,0.1),
+			inset 0 0 10px rgba(255,0,84,0.4),
+			inset 0 0 30px rgba(255,0,84,0.2),
+			inset 0 0 20px rgba(255,0,84,0.1);
+
+$blue-neon: 0 0 30px rgba(0,195,255,0.6),
+			0 0 60px rgba(0,195,255,0.4),
+			0 0 100px rgba(0,195,255,0.2),
+			0 0 90px rgba(0,195,255,0.1);
+
+$blue-neon-strong: 0 0 30px rgba(0,195,255,0.8),
+			0 0 60px rgba(0,195,255,0.6),
+			0 0 100px rgba(0,195,255,0.4),
+			0 0 90px rgba(0,195,255,0.2);
+
+$blue-neon-stronger: 0 0 30px rgba(0,195,255,1),
+			0 0 60px rgba(0,195,255,0.8),
+			0 0 100px rgba(0,195,255,0.6),
+			0 0 90px rgba(0,195,255,0.4);
+
+
+$blue-neon-double: 0 0 30px rgba(0,195,255,0.6),
+			0 0 60px rgba(0,195,255,0.4),
+			0 0 100px rgba(0,195,255,0.2),
+			0 0 90px rgba(0,195,255,0.1),
+     inset 0 0 30px rgba(0,195,255,0.6),
+		 inset 0 0 60px rgba(0,195,255,0.4),
+		 inset 0 0 100px rgba(0,195,255,0.2),
+		 inset	0 0 90px rgba(0,195,255,0.1);
+
+$blue-neon-double-light: 0 0 10px rgba(0,195,255,0.4),
+			0 0 30px rgba(0,195,255,0.2),
+			0 0 20px rgba(0,195,255,0.1),
+		 inset 0 0 10px rgba(0,195,255,0.4),
+		 inset 0 0 30px rgba(0,195,255,0.2),
+		 inset	0 0 20px rgba(0,195,255,0.1);
+
+$blue-tube: #dfe6ff;
+$blue-tube-off: #445;
+$red-tube: #ff9977;
+$red-tube-off: #544;
+
+.main-title {
+  font-family: "Cabin", Open Sans;
+  text-align: center;
+}
+
+.super-size {
+  font-size: 80px;
+}
+
+.neon-text-lg {
+  color: $blue-tube-off;
+  animation: neonspark-blue 0.5s 1s forwards;
+}
+
+.neon-text-md {
+  color: $blue-tube-off;
+  animation: neonspark-blue 0.5s 2s forwards;
+}
+
+.neon-text-sm {
+  // text-shadow: $red-neon;
+  color: $red-tube-off;
+  animation: neonspark-red 0.5s 3s forwards;
+}
+
+.neon-box-sm {
+  box-shadow: $blue-neon-double;
+}
+
+#main-jumbo {
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: lightyellow;
+}
+
+.btn-neon {
+  background-color: black;
+  color: $blue-tube;
+  margin: 60px;
+  padding: 20px;
+  font-size: 20px;
+  border: 2px solid #dfe6ff;
+  border-radius: 10px;
+  text-shadow: $blue-neon-strong;  
+  &:hover {
+    margin: 58px 58px 54px 54px;
+    padding: 22px;
+    font-size: 22px;
+    text-shadow: $blue-neon-stronger;
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    transition: 300ms ;
+  }
+}
+
+.rambutan {
+  position: relative;
+  border: 4px solid $red-tube-off;
+  height: 90px;
+  width: 75px;
+  border-radius: 43%;
+  margin-left: 45px;
+  // box-shadow: $red-neon-double
+  animation: neonspark-red-double 0.5s 4s forwards;
+  &:after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    border: 4px solid $red-tube-off;
+    height: 90px;
+    width: 75px;
+    border-radius: 43%;
+    margin-left: 45px;
+    animation: neonspark-red-double 0.5s 4.5s forwards;
+    // box-shadow: $red-neon-double;
+  }
+    &:before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    right: -20px;
+    border: 4px solid $red-tube-off;
+    height: 90px;
+    width: 75px;
+    border-radius: 43%;
+    margin-left: 45px;
+    // box-shadow: $red-neon-double;
+    animation: neonspark-red-double 0.5s 5s forwards;
+  }
+}
+.logo-text {
+  position: absolute;
+  top: 65px;
+}
+
+.padded-box {
+  padding: 80px;
+  border: 8px solid $blue-tube;
+  border-radius: 20px;
+}
+
+p {
+  font-size: 18px;
+  color: #dfe6ff;
+}
+
+.list-group-item {
+  background-color: black;
+  border: 1px solid #ddd;
+  padding-left: 50px;
+  color: #ddd;
+}
+
+.image-box {
+  padding: 10px;
+  border: 2px solid #dfe6ff;
+  border-radius: 5px;
+  margin: 8px;
+  text-align: center;
+  box-shadow: $blue-neon-double-light;
+  &:hover {
+    border: 2px solid #ff9977;
+    box-shadow: $red-neon-double-light;
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    transition: 300ms ;
+  }
+}
+
+@keyframes neonspark-blue  {
+	0% {
+		text-shadow: none;
+    color: $blue-tube-off;
+	}
+	30% {
+		text-shadow: 0 0 30px rgba(0,195,255,0.6);
+    color: $blue-tube;
+	}
+	60% {
+		text-shadow: 0 0 30px rgba(0,195,255,0.6),
+		  0 0 60px rgba(0,195,255,0.4);
+    color: $blue-tube;
+	}
+	80% {
+		text-shadow: none;
+    color: $blue-tube-off;
+	}
+	100% {
+		text-shadow: 0 0 30px rgba(0,195,255,0.6),
+		 0 0 60px rgba(0,195,255,0.4), 
+		 0 0 100px rgba(0,195,255,0.2), 
+		 0 0 90px rgba(0,195,255,0.1);
+    color: white;
+	}
+}
+
+@keyframes neonspark-red  {
+	0% {
+		text-shadow: none;
+    color: $red-tube-off;
+	}
+	30% {
+		text-shadow: 0 0 30px rgba(255,0,84,0.6);
+    color: $red-tube;
+	}
+	60% {
+		text-shadow: 0 0 30px rgba(255,0,84,0.6),
+		  0 0 60px rgba(255,0,84,0.4);
+    color: $red-tube;
+	}
+	80% {
+		text-shadow: none;
+    color: $red-tube-off;
+	}
+	100% {
+		text-shadow: 0 0 30px rgba(255,0,84,0.6),
+			0 0 60px rgba(255,0,84,0.4),
+			0 0 100px rgba(255,0,84,0.2),
+			0 0 90px rgba(255,0,84,0.1);
+    color: white;
+	}
+}
+
+@keyframes neonspark-red-double  {
+	0% {
+		box-shadow: none;
+    border: 4px solid $red-tube-off;
+	}
+	30% {
+		box-shadow: 0 0 20px rgba(255,0,84,0.6), inset 0 0 20px rgba(255,0,84,0.6);
+    border: 4px solid $red-tube;
+	}
+	60% {
+		box-shadow: 0 0 20px rgba(255,0,84,0.6),
+		  0 0 40px rgba(255,0,84,0.4), inset 0 0 20px rgba(255,0,84,0.6), inset 0 0 40px rgba(255,0,84,0.4);
+    border: 4px solid $red-tube;
+	}
+	80% {
+		box-shadow: none;
+    border: 4px solid $red-tube-off;
+	}
+	100% {
+		box-shadow: 0 0 15px rgba(255,0,84,0.6),
+			0 0 30px rgba(255,0,84,0.4),
+			0 0 60px rgba(255,0,84,0.2),
+			0 0 45px rgba(255,0,84,0.1), 
+      inset 0 0 15px rgba(255,0,84,0.6),
+			inset 0 0 30px rgba(255,0,84,0.4),
+			inset 0 0 60px rgba(255,0,84,0.2),
+			inset 0 0 45px rgba(255,0,84,0.1);
+      border: 4px solid white;
+	}
+}
