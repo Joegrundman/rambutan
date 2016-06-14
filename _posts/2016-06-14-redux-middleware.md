@@ -33,16 +33,18 @@ Wouldn't it be nice if for straight-through dispatches, we could call it this wa
 
 Since the reducer only accepts plain old javascript objects, the transformation must occur in middleware
 
-redux middleware follows this curried syntax:
+redux middleware follows this curried syntax:  
+
 ```
-const myMiddleware  = store => next => action => {   
-//my awesome middleware  
-return next(action)    
+const myMiddleware  = store => next => action => {     
+//my awesome middleware    
+return next(action)      
 }
 ```
 
-So to make our middleware that accepts shorthand dispatches we have: 
+So to make our middleware that accepts shorthand dispatches we have:
 
+```
 `const allowShorthandDispatches  = store => next => action => {`     
 `if(typeof action === "string"){`  
 `action = {`  
@@ -51,14 +53,17 @@ So to make our middleware that accepts shorthand dispatches we have:
 `}`  
 `return next(action)`  
 `}`
+```
 
 Finally we have to register our middleware with the store, and for that we need the  
 applyMiddleware method from Redux.
 
 `const {createStore, applyMiddleware} = Redux`  
 
+```
 `const store = createStore(myApp,`  
 `applyMiddleware(allowShorthandDispatches))`
+```
 
 and that's it and we can now use our shorthand syntax for straight-through dispatches.
 
