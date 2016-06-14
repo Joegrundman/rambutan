@@ -35,21 +35,21 @@ Since the reducer only accepts plain old javascript objects, the transformation 
 
 to declare middleware follows this curried syntax:
 
-`const myMiddleware  = store => next => action => {`
-`   //my awesome middleware`
-`   return next(action)`
-`}`
+`const myMiddleware  = store => next => action => {
+   //my awesome middleware
+   return next(action)
+}`
 
 So to make our middleware that accepts shorthand dispatches we have: 
 
-`const allowShorthandDispatches  = store => next => action => {`
-`   if(typeof action === "string"){`
-`       action = {`
-`           type: action`
-`           }`
-`       }`
-`   return next(action)`
-`}`
+`const allowShorthandDispatches  = store => next => action => {
+   if(typeof action === "string"){
+       action = {
+           type: action
+           }
+       }
+   return next(action)
+}
 
 Finally we have to register our middleware with the store, and for that we need the  
 applyMiddleware method from Redux.
