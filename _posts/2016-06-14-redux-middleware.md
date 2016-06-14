@@ -34,11 +34,12 @@ Wouldn't it be nice if for straight-through dispatches, we could call it this wa
 Since the reducer only accepts plain old javascript objects, the transformation must occur in middleware
 
 redux middleware follows this curried syntax:
-
-`const myMiddleware  = store => next => action => {`  
-`//my awesome middleware`  
-`return next(action)`  
-`}`
+```
+const myMiddleware  = store => next => action => {   
+//my awesome middleware  
+return next(action)    
+}
+```
 
 So to make our middleware that accepts shorthand dispatches we have: 
 
