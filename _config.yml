@@ -37,13 +37,13 @@ author: "Joe Grundman"
 title: ".rambutan studio"
 description: "Blog and Portfolio of Joe Grundman, web developer"
 keywords: "Joe Grundman, web developer, rambutan studio"
-favicon: "/img/favicon.ico"
+favicon: "/img/favicon.png"
 
 ################
 # Header layout #
 ################
 
-black-favicon: "/img/favicon.ico"
+black-favicon: "/img/favicon.png"
 
 # background-img: "../img/intro-bg.jpg"
 
