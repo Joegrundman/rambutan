@@ -25,9 +25,6 @@ google-tracking-id: "UA-35880426-4"
 
 force-https: True
 
-# syntax coloring in code
-highlighter: true
-
 #############
 # HTML Head #
 #############
@@ -138,7 +135,7 @@ email: "jonathangrundman@hotmail.com"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "Joe Grundman is a Cologne-area-based highly motivated and talented web developer, excited to be a part of the most important technological development of our time."
+author_blurb: "Joe Grundman is a highly motivated and talented web developer in the Cologne area. He is excited to be a part of the most important technological development of our time."
 author_blurb_image: "/img/author.png"
 
 ##################
