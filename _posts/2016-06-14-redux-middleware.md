@@ -6,8 +6,8 @@ category: tech
 tags: [ 'redux' ]
 ---
 
-Redux Middleware
-================
+**Writing a Redux Middleware to allow shorthand actions**
+
 
 Since redux requires all actions be plain old javascript objects, any additional functionality  
 must come from middleware.
@@ -19,9 +19,9 @@ Fortunately this is not a difficult process.
 Many actions are we what we can call straight-through dispatches.
 By which I mean the only attribute of the action is the type.
 
-`store.dispatch( {"type": "INCREMENT_GOLD"})`
+`store.dispatch({"type": "INCREMENT_GOLD"})`
 
-`store.dispatch( {"type": "DECREMENT_GOLD"})`
+`store.dispatch({"type": "DECREMENT_GOLD"})`
 
 the straight-through dispatch is enough information for the reducer to change the state accordingly
 
@@ -33,16 +33,16 @@ Wouldn't it be nice if for straight-through dispatches, we could call it this wa
 
 Since the reducer only accepts plain old javascript objects, the transformation must occur in middleware
 
-to declare middleware follows this curried syntax:
+redux middleware follows this curried syntax:
 
-`const myMiddleware  = store => next => action => {`
+`const myMiddleware  = store => next => action => {`  
 `//my awesome middleware`  
 `return next(action)`  
 `}`
 
 So to make our middleware that accepts shorthand dispatches we have: 
 
-`const allowShorthandDispatches  = store => next => action => {`  
+`const allowShorthandDispatches  = store => next => action => {`     
 `if(typeof action === "string"){`  
 `action = {`  
 `type: action`  

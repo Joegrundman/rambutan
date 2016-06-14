@@ -43,7 +43,7 @@ favicon: "/img/favicon.ico"
 # Header layout #
 ################
 
-black-favicon: "/img/black-lab-glass.ico"
+black-favicon: "/img/favicon.ico"
 
 # background-img: "../img/intro-bg.jpg"
 
@@ -104,7 +104,7 @@ pinterest-share: True
 pocket-share: True
 vkontakte-share: True
 
-disqus-shortname: "panossakkos"
+disqus-shortname: "rambutan"
 
 syntax-highlight: True
 
