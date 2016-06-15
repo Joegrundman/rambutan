@@ -9,17 +9,19 @@ tags: [ 'redux' ]
 **Writing a Redux Middleware to allow shorthand actions**
 
 
-Since redux requires all actions be plain old javascript objects, any additional functionality  
-must come from middleware.
+Redux requires all actions be plain old javascript objects, for example:
 
 ```
-store.dispatch({"type": "SET_GOLD", "quantity": "22" })
+store.dispatch({"type": "SET_GOLD", "quantity": "22", "user": "Elizabeth" })
 ```
 
-Fortunately this is not a difficult process.
+Additionally, reducer functions must be pure functions, so any additional functionality,  
+such as logging or ajax calls, must come from middleware. Fortunately this is not a difficult process.
 
-Many actions are we what we can call straight-through dispatches.
-By which I mean the only attribute of the action is the type.
+To illustrate this we can look at a simple Redux Middleware to allow shorthand actions.  
+
+Many actions are what we can call _straight-through dispatches_.
+By which I mean the only attribute of the action is the type. For example:  
 
 ```
 store.dispatch({"type": "INCREMENT_GOLD"})
@@ -30,7 +32,7 @@ store.dispatch({"type": "DECREMENT_GOLD"})
 
 the straight-through dispatch is enough information for the reducer to change the state accordingly
 
-Wouldn't it be nice if for straight-through dispatches, we could call it this way instead?
+Wouldn't it be nice if, for straight-through dispatches, we could call it this way instead?
 
 ```
 store.dispatch("INCREMENT_GOLD")

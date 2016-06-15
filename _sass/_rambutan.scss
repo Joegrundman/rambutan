@@ -57,6 +57,8 @@ $blue-tube: #dfe6ff;
 $blue-tube-off: #445;
 $red-tube: #ff9977;
 $red-tube-off: #544;
+$bg-portfolio-box: #544;
+
 
 .main-title {
   font-family: "Cabin", Open Sans;
@@ -174,19 +176,22 @@ p {
 }
 
 .image-box {
-  padding: 10px;
-  border: 2px solid #dfe6ff;
-  border-radius: 5px;
-  margin: 8px;
+  margin: 10px;
+}
+
+.portfolio-box {
+  padding:5px;
+  border-radius: 8px;
+  background-color: $bg-portfolio-box;
+  margin: 6px;
   text-align: center;
-  box-shadow: $blue-neon-double-light;
+  font-size: 1.2em;
+  transition: all .2s ease-in-out;
   &:hover {
-    border: 2px solid #ff9977;
-    box-shadow: $red-neon-double-light;
-    -webkit-transition: 300ms;
-    -moz-transition: 300ms;
-    transition: 300ms ;
+    box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, .5);
+    transform: scale(1.1);
   }
+  
 }
 
 @keyframes neonspark-blue  {

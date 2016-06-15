@@ -168,6 +168,7 @@ social:
 
 pages_list:
   About: 'about'
+  Portfolio: 'portfolio'
   Blog: 'latest-post'
   Timeline: 'timeline'
   Contact: 'contact'

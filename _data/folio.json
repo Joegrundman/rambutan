@@ -1,0 +1,107 @@
+[
+  {
+    "title": "Plastic Tables",
+    "url":"http://plastictables.herokuapp.com",
+    "imgUrl":"https://s3.eu-central-1.amazonaws.com/neon-rambutan/plasttacles_screenshot.png",
+    "alt": "plastic_tables",
+    "snippet":"Budget and ethnic restaurant review site, with angular, mongo and node"
+  },
+    {
+    "title": "Warplanner",
+    "url":"http://nodeplanner.herokuapp.com",
+    "imgUrl":"https://s3.eu-central-1.amazonaws.com/neon-rambutan/warplanner_screenshot.png",
+    "alt":"warplanner",
+    "snippet":"World War 2 strategy game. Work in progress"
+  },
+  {
+    "title": "Hugsar",
+    "url":"http://hugsar.uk",
+    "imgUrl":"https://s3.eu-central-1.amazonaws.com/neon-rambutan/hugsar-thumb.png",
+    "snippet":"Static website for a contemporary band in Bristol, UK, using Jekyll",
+    "alt":"hugsar"
+  },
+    {
+    "title": "Conway's Game of Life",
+    "url":"http://codepen.io/rambutan/full/ONOaaZ",
+    "imgUrl":"https://s3.eu-central-1.amazonaws.com/neon-rambutan/gameoflife.png",
+    "snippet":"Conway's Game of Life with React and sass",
+    "alt":"game_of_life"
+  },
+    {
+    "title": "Simon",
+    "url":"http://codepen.io/rambutan/full/ONgZPP",
+    "imgUrl":"https://s3.eu-central-1.amazonaws.com/neon-rambutan/simon.png",
+    "alt":"simon",
+    "snippet":"Play the classic 1980's electronic game. Using Angularjs"
+  },
+    {
+    "title": "Simple Calculator",
+    "url":"http://codepen.io/rambutan//oxBKex",
+    "imgUrl":"https://s3.eu-central-1.amazonaws.com/neon-rambutan/calculator.png",
+    "alt":"calculator",
+    "snippet":"Calculator made with Angularjs"
+  },
+    {
+    "title": "Pomodoro",
+    "url":"http://codepen.io/rambutan/full/RaVbbg",
+    "imgUrl":"https://s3.eu-central-1.amazonaws.com/neon-rambutan/pomodor.png",
+    "alt": "pomodoro",
+    "snippet":"Pomodoro timer made with Angularjs"
+  },
+    {
+    "title": "Dungeon Danger",
+    "url":"http://codepen.io/rambutan/full/KzxQJb/",
+    "imgUrl":"https://s3.eu-central-1.amazonaws.com/neon-rambutan/dungeon_danger.png",
+    "alt": "dungeon_danger",
+    "snippet":"Dungeon Danger. A Roguelike game with React and Redux"
+  },
+    {
+    "title": "Wiki-viewer",
+    "url":"http://codepen.io/rambutan/full/aNvQaL",
+    "imgUrl":"https://s3.eu-central-1.amazonaws.com/neon-rambutan/wiki-view.png",
+    "alt": "wiki-viewer",
+    "snippet":"This wikipedia viewer uses the Wikipedia API"
+  },
+    {
+    "title": "Tic Tac Toe",
+    "url":"http://codepen.io/rambutan/full/jqmmOe",
+    "imgUrl":"https://s3.eu-central-1.amazonaws.com/neon-rambutan/tictactoe.png",
+    "alt": "tic_tac_toe",
+    "snippet":"Tic Tac Toe with perfect play algorithm and Angularjs"
+  },
+    {
+    "title": "Bar Graph",
+    "url":"http://codepen.io/rambutan/full/dMwEqL",
+    "imgUrl":"https://s3.eu-central-1.amazonaws.com/neon-rambutan/bargraph.png",
+    "alt": "D3.js Bar Graph",
+    "snippet":"Bar Graph Data Visualization using D3.js to show US GDP since 1947"
+  },
+    {
+    "title": "Scatter Graph Doping on Tour de France",
+    "url":"http://codepen.io/rambutan/full/bpZGJa",
+    "imgUrl":"https://s3.eu-central-1.amazonaws.com/neon-rambutan/scattergraph.png",
+    "alt": "D3.js Scatter Graph",
+    "snippet":"Scatter Graph Data Visualization using D3.js to show doping in the Tour de France"
+  },
+    {
+    "title": "Heat Map Global Temperatures",
+    "url":"http://codepen.io/rambutan/full/VaNqjL",
+    "imgUrl":"https://s3.eu-central-1.amazonaws.com/neon-rambutan/heatgraph.png",
+    "alt": "D3.js Heat Map",
+    "snippet":"Heat Map Data Visualization using D3.js to show average global temperatures"
+  },
+    {
+    "title": "Force Graph - Forum User Links",
+    "url":"http://codepen.io/rambutan/full/vGqXEq",
+    "imgUrl":"https://s3.eu-central-1.amazonaws.com/neon-rambutan/force-graph.png",
+    "alt": "D3.js Force Graph",
+    "snippet":"Force Graph Data Visualization using D3.js to show user links from a forum"
+  },
+    {
+    "title": "Global Graph - Meteorites",
+    "url":"http://codepen.io/rambutan/full/oLgxbQ",
+    "imgUrl":"https://s3.eu-central-1.amazonaws.com/neon-rambutan/meteor.png",
+    "alt": "D3.js World Map",
+    "snippet":"World Map Data Visualization using D3.js to show meteorite strikes"
+  }
+]
