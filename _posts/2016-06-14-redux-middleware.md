@@ -15,8 +15,8 @@ Redux requires all actions be plain old javascript objects, for example:
 store.dispatch({"type": "SET_GOLD", "quantity": "22", "user": "Elizabeth" })
 ```
 
-Additionally, reducer functions must be pure functions, so any additional functionality,  
-such as logging or ajax calls, must come from middleware. Fortunately this is not a difficult process.
+Additionally, reducer functions must be pure functions, so additional functionality,  
+such as logging, must come from middleware. Fortunately this is not a difficult process.
 
 To illustrate this we can look at a simple Redux Middleware to allow shorthand actions.  
 

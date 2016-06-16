@@ -1,7 +1,7 @@
 
 <!-- Latest Post Preview Start -->
 
-<section id="{{ page.section-type }}" class="container content-section text-center">
+<section id="{{ page.section-type }}" class="container content-section text-center latest-post-container">
     <div class="row">
       <div class="col-md-10 col-md-offset-1">
 
@@ -18,9 +18,9 @@
           <small> <a href="{{site.baseurl}}{{post.url}}#disqus_thread">Comments</a></small>
         </h4>
 
-        {{ post.content | strip_html | markdownify | truncatewords: site.post-preview-words }}
+        {{ post.content | markdownify | truncatewords: site.post-preview-words }}
 
-        <h4><a href="{{site.baseurl}}/blog/">View more posts</a></h4>
+        <h2 id="view-more"><a href="{{site.baseurl}}/blog/">View more posts</a></h2>
 
       </div>
     </div>

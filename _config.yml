@@ -169,8 +169,8 @@ social:
 pages_list:
   About: 'about'
   Portfolio: 'portfolio'
+  Skills: 'skills'
   Blog: 'latest-post'
-  Timeline: 'timeline'
   Contact: 'contact'
 
 # Exclusion list from the generated _site
