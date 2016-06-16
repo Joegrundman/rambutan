@@ -20,8 +20,7 @@
 
         {{ post.content | markdownify | truncatewords: site.post-preview-words }}
 
-        <h2 id="view-more"><a href="{{site.baseurl}}/blog/">View more posts</a></h2>
-
+        <h2><a class="btn btn-default" href="{{site.baseurl}}/blog/">View more posts</a></h2>
       </div>
     </div>
 </section>
