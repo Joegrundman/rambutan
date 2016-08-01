@@ -19,6 +19,10 @@
             <div>
                 <p>
                     {{ item.snippet }}
+                    {% if item.repo %}
+                    <br>
+                    <a href="{{item.repo}}">Repo</a>
+                    {% endif %}
                 </p>
             </div>
         </div>

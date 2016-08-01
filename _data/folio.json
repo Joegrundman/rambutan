@@ -4,14 +4,16 @@
     "url":"http://plastictables.herokuapp.com",
     "imgUrl":"https://s3.eu-central-1.amazonaws.com/neon-rambutan/plasttacles_screenshot.png",
     "alt": "plastic_tables",
-    "snippet":"Budget and ethnic restaurant review site, with angular, mongo and node"
+    "snippet":"Budget and ethnic restaurant review site, with angular, mongo and node",
+    "repo": "https://github.com/Joegrundman/ptac"
   },
     {
     "title": "Warplanner",
     "url":"http://nodeplanner.herokuapp.com",
     "imgUrl":"https://s3.eu-central-1.amazonaws.com/neon-rambutan/warplanner_screenshot.png",
     "alt":"warplanner",
-    "snippet":"World War 2 strategy game. Work in progress"
+    "snippet":"World War 2 strategy game. Work in progress",
+    "repo": "https://github.com/Joegrundman/nodeplanner"
   },
   {
     "title": "Hugsar",
