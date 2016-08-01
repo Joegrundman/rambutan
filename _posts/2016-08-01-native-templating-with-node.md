@@ -90,7 +90,10 @@ function getFields(data){
 
 here is a complete template page made using native node, mixed with logic in a way that is familiar to users of react and angular
 
+*/templates/poll_template.js*
+
 ```
+
 module.exports = function(poll){
 	
    function getField(field) {
@@ -139,6 +142,12 @@ module.exports = function(poll){
 }
 
 
+```
+then in your express app you call the template and send it to the client
+
+```
+var pollTpl = require('../templates/poll_template')(data)
+res.send(pollTpl)
 ```
 
 
