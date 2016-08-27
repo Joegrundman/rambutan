@@ -22,6 +22,14 @@
     "snippet":"Static website for a contemporary band in Bristol, UK, using Jekyll",
     "alt":"hugsar"
   },
+  {
+    "title": "Votemaster",
+    "url":"http://rs-votemaster.herokuapp.com",
+    "imgUrl":"https://s3.eu-central-1.amazonaws.com/neon-rambutan/votemaster.pngg",
+    "alt": "votemaster",
+    "snippet":"Voting app using d3.js, node, mongodb and nativejs DOM manipulation",
+    "repo": "https://github.com/Joegrundman/votingapp"
+  },
     {
     "title": "Conway's Game of Life",
     "url":"http://codepen.io/rambutan/full/ONOaaZ",
@@ -57,13 +65,7 @@
     "alt": "dungeon_danger",
     "snippet":"Dungeon Danger. A Roguelike game with React and Redux"
   },
-    {
-    "title": "Wiki-viewer",
-    "url":"http://codepen.io/rambutan/full/aNvQaL",
-    "imgUrl":"https://s3.eu-central-1.amazonaws.com/neon-rambutan/wiki-view.png",
-    "alt": "wiki-viewer",
-    "snippet":"This wikipedia viewer uses the Wikipedia API"
-  },
+
     {
     "title": "Tic Tac Toe",
     "url":"http://codepen.io/rambutan/full/jqmmOe",
