@@ -27,7 +27,7 @@
     "url":"http://rs-votemaster.herokuapp.com",
     "imgUrl":"https://s3.eu-central-1.amazonaws.com/neon-rambutan/votemaster.png",
     "alt": "votemaster",
-    "snippet":"Voting app using d3.js, node, mongodb and nativejs DOM manipulation",
+    "snippet":"Voting app using d3.js, node, mongodb and native js DOM manipulation and templating",
     "repo": "https://github.com/Joegrundman/votingapp"
   },
     {
