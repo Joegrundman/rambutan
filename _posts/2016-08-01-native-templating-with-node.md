@@ -64,7 +64,7 @@ sure, we can do this too using template string interpolation
    ${fields.map(field => (`      
       <div>
          <h4>${field.name }: <span>${field.votes}</span></h4>
-      </div>`)}
+      </div>`).join('')}
 </div>
 `
 ```
