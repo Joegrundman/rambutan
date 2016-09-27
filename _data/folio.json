@@ -74,11 +74,11 @@
     "snippet":"Tic Tac Toe with perfect play algorithm and Angularjs"
   },
     {
-    "title": "Bar Graph",
-    "url":"http://codepen.io/rambutan/full/dMwEqL",
-    "imgUrl":"https://s3.eu-central-1.amazonaws.com/neon-rambutan/bargraph.png",
-    "alt": "D3.js Bar Graph",
-    "snippet":"Bar Graph Data Visualization using D3.js to show US GDP since 1947"
+    "title": "Hingoot",
+    "url":"http://hingoot.herokuapp.com",
+    "imgUrl":"https://s3.eu-central-1.amazonaws.com/neon-rambutan/hingoot.png",
+    "alt": "Hingoot",
+    "snippet":"Nightlife coordinator using React, Redux, Immutable.js, Material-UI and Facebook Auth"
   },
     {
     "title": "Scatter Graph Doping on Tour de France",
