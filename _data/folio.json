@@ -78,7 +78,8 @@
     "url":"http://hingoot.herokuapp.com",
     "imgUrl":"https://s3.eu-central-1.amazonaws.com/neon-rambutan/hingoot.png",
     "alt": "Hingoot",
-    "snippet":"Nightlife coordinator using React, Redux, Immutable.js, Material-UI and Facebook Auth"
+    "snippet":"Nightlife coordinator using React, Redux, Immutable.js, Material-UI and Facebook Auth",
+    "repo": "https://github.com/Joegrundman/hingoot"
   },
     {
     "title": "Scatter Graph Doping on Tour de France",
