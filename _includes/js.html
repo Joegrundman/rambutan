@@ -32,7 +32,9 @@ $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click"
 
 {% endif %}
 
-{% if site.syntax-highlight and page.section-type == "post" %}
+{% if site.syntax-highlight %}
+
+<!--append this to the line above to lmiit syntax highlighting to blog page --- and page.section-type == "post"-->
 
   <!-- Syntax highlight in post pages-->
 
