@@ -52,11 +52,12 @@
     "snippet":"Calculator made with Angularjs"
   },
     {
-    "title": "Pomodoro",
-    "url":"http://codepen.io/rambutan/full/RaVbbg",
-    "imgUrl":"https://s3.eu-central-1.amazonaws.com/neon-rambutan/pomodor.png",
-    "alt": "pomodoro",
-    "snippet":"Pomodoro timer made with Angularjs"
+    "title": "gplayer",
+    "url":"https://joegrundman.github.io/gplayer-react/",
+    "imgUrl":"https://s3.eu-central-1.amazonaws.com/neon-rambutan/gplayer.png",
+    "alt": "gplayer",
+    "snippet":"AudioPlayer with visualizer made with Reactjs and the native AudioContext object",
+    "repo": "https://github.com/Joegrundman/gplayer-react"
   },
     {
     "title": "Dungeon Danger",
