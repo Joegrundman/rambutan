@@ -8,7 +8,7 @@ tags: [ 'node', 'templating' ]
 
 If you have a lot of templating to do, you would like to use a templating library like Handlebars or Swig.
 
-But what if you have only a few pages that needs to be templated? Do you need to install the library and configure your express app for just one or two pages?
+But what if you have only a few pages that need to be templated? Do you need to install the library and configure your express app for just one or two pages?
 
 The new node features of **template string interpolation** and **multiline strings** make creating your own templates pretty easy without need for _handlebars_
 

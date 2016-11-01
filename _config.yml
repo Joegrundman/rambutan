@@ -31,7 +31,7 @@ force-https: True
 
 lang: "en"
 author: "Joe Grundman"
-title: ".rambutan studio"
+title: "joe grundman"
 description: "Blog and Portfolio of Joe Grundman, web developer"
 keywords: "Joe Grundman, web developer, rambutan studio"
 favicon: "/img/favicon.png"
@@ -159,7 +159,7 @@ social:
 # 404 page #
 ############
 
-404-img: "/img/labtocat.png"
+404_img: "/img/labtocat.png"
 
 ################################################################################
 
