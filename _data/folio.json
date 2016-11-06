@@ -89,21 +89,7 @@
     "alt": "D3.js Scatter Graph",
     "snippet":"Scatter Graph Data Visualization using D3.js to show doping in the Tour de France"
   },
-    {
-    "title": "Heat Map Global Temperatures",
-    "url":"http://codepen.io/rambutan/full/VaNqjL",
-    "imgUrl":"https://s3.eu-central-1.amazonaws.com/neon-rambutan/heatgraph.png",
-    "alt": "D3.js Heat Map",
-    "snippet":"Heat Map Data Visualization using D3.js to show average global temperatures"
-  },
-    {
-    "title": "Force Graph - Forum User Links",
-    "url":"http://codepen.io/rambutan/full/vGqXEq",
-    "imgUrl":"https://s3.eu-central-1.amazonaws.com/neon-rambutan/force-graph.png",
-    "alt": "D3.js Force Graph",
-    "snippet":"Force Graph Data Visualization using D3.js to show user links from a forum"
-  },
-    {
+  {
     "title": "Global Graph - Meteorites",
     "url":"http://codepen.io/rambutan/full/oLgxbQ",
     "imgUrl":"https://s3.eu-central-1.amazonaws.com/neon-rambutan/meteor.png",
