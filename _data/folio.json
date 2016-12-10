@@ -45,6 +45,14 @@
     "alt": "gplayer",
     "snippet":"AudioPlayer with visualizer made with Reactjs and the native AudioContext object. Not compatible with IE",
     "repo": "https://github.com/Joegrundman/gplayer-react"
+  },    
+  {
+    "title": "stockdisplay",
+    "url":"http://rs-stockdisplayapp.herokuapp.com",
+    "imgUrl":"https://s3.eu-central-1.amazonaws.com/neon-rambutan/stock-display.png",
+    "alt": "stockdisplay app",
+    "snippet":"Stock Price History Display with Angular2, Typescript, d3js and websocket",
+    "repo": "https://github.com/Joegrundman/stockdisplayapp"
   },
     {
     "title": "Conway's Game of Life",
