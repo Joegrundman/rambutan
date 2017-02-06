@@ -6,3 +6,27 @@ title: Contact
 ## Contact
 
 Drop me an email if you are interested in me coding for you or if your cat is stuck in a tree, or whatever!
+
+<div class="panel panel-default">
+    <div class="panel-body email-form">
+        <form action="https://formspree.io/grundmanjonathan@gmail.com" method="POST">
+            <div class="form-group">
+                <label for="text"> Your Name: </label>
+                <input type="text" class="form-control" id="text" name="name" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+                <label for="email"> Your Email Address: </label>
+                <input type="email" class="form-control" id="email" name="_replyto" placeholder="email@example.com" required>
+            </div>
+            <div class="form-group">
+                <label for="message"> Your Message: </label>
+                <textarea class="form-control" id="message" name="message" placeholder="Your Message" required></textarea>
+            </div>
+            <input type="hidden" id="text" name="_subject" value="Contact Joe Grundman!">
+            
+            <!-- this _gotcha line is a honeypot trap to catch spam scrapers -->
+            <input type="text" name="_gotcha" style="display:none" />
+            <input class="btn btn-default" type="submit" value="Send">
+        </form>
+    </div>
+</div>

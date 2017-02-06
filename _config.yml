@@ -68,6 +68,12 @@ lines: # You can add HTML Tags in the Text
 color-browser: "#000000"
 apple-status-bar-style: "black"
 
+#########################
+# images for portfolio  #
+#########################
+
+oktimer: /img/oktimer.png
+
 ################
 # Web app mode #
 ################

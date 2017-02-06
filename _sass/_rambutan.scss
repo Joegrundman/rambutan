@@ -300,6 +300,16 @@ p {
   
 }
 
+.contact-page {
+  font-family: sans-serif !important;
+}
+
+.email-form {
+  background-color: lighten($primary-color, 10%);
+  border: 2px solid #233;
+  color: white;
+}
+
 #comp-group {
   ul {
     list-style: none;

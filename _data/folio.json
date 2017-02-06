@@ -43,7 +43,7 @@
     "url":"https://joegrundman.github.io/gplayer-react/",
     "imgUrl":"https://s3.eu-central-1.amazonaws.com/neon-rambutan/gplayer.png",
     "alt": "gplayer",
-    "snippet":"AudioPlayer with visualizer made with Reactjs and the native AudioContext object. Not compatible with IE",
+    "snippet":"AudioPlayer with visualizer made with Reactjs and the js AudioContext object. Not compatible with IE",
     "repo": "https://github.com/Joegrundman/gplayer-react"
   },    
   {
@@ -53,6 +53,14 @@
     "alt": "stockdisplay app",
     "snippet":"Stock Price History Display with Angular2, Typescript, d3js and websocket",
     "repo": "https://github.com/Joegrundman/stockdisplayapp"
+  },
+    {
+    "title": "OK Timer",
+    "url":"https://joegrundman.github.io/oktimer/",
+    "imgUrl":"img/oktimer.png",
+    "alt": "OK Timer",
+    "snippet":"Voice activated Timer application using React and js SpeechRecognition and SpeechUtterance",
+    "repo": "https://github.com/Joegrundman/oktimer"
   },
     {
     "title": "Conway's Game of Life",
