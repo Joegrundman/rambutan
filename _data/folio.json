@@ -2,7 +2,7 @@
   {
     "title": "Hingoot",
     "url":"http://hingoot.herokuapp.com",
-    "imgUrl":"https://s3.eu-central-1.amazonaws.com/neon-rambutan/hingoot.png",
+    "imgUrl":"img/hingoot.png",
     "alt": "Hingoot",
     "snippet":"Nightlife coordinator using React, Redux, Immutable.js, Material-UI and Facebook Auth",
     "repo": "https://github.com/Joegrundman/hingoot"
@@ -10,7 +10,7 @@
   {
     "title": "Plastic Tables",
     "url":"http://plastictables.herokuapp.com",
-    "imgUrl":"https://s3.eu-central-1.amazonaws.com/neon-rambutan/plasttacles_screenshot.png",
+    "imgUrl":"img/plasttacles_screenshot.png",
     "alt": "plastic_tables",
     "snippet":"Budget and ethnic restaurant review site, with angular1, mongodb and node",
     "repo": "https://github.com/Joegrundman/ptac"
@@ -18,7 +18,7 @@
     {
     "title": "Warplanner",
     "url":"http://nodeplanner.herokuapp.com",
-    "imgUrl":"https://s3.eu-central-1.amazonaws.com/neon-rambutan/warplanner_screenshot.png",
+    "imgUrl":"img/warplanner_screenshot.png",
     "alt":"warplanner",
     "snippet":"Complex World War 2 strategy game using jquery and html canvas. Work in progress",
     "repo": "https://github.com/Joegrundman/nodeplanner"
@@ -26,14 +26,14 @@
   {
     "title": "Hugsar",
     "url":"http://hugsar.uk",
-    "imgUrl":"https://s3.eu-central-1.amazonaws.com/neon-rambutan/hugsar-thumb.png",
+    "imgUrl":"img/hugsar-thumb.png",
     "snippet":"Static website for a contemporary band in Bristol, UK, using Jekyll",
     "alt":"hugsar"
   },
   {
     "title": "Votemaster",
     "url":"http://rs-votemaster.herokuapp.com",
-    "imgUrl":"https://s3.eu-central-1.amazonaws.com/neon-rambutan/votemaster.png",
+    "imgUrl":"img/votemaster.png",
     "alt": "votemaster",
     "snippet":"Voting app using d3.js, node, mongodb and native js DOM manipulation and templating",
     "repo": "https://github.com/Joegrundman/votingapp"
@@ -41,7 +41,7 @@
     {
     "title": "gplayer",
     "url":"https://joegrundman.github.io/gplayer-react/",
-    "imgUrl":"https://s3.eu-central-1.amazonaws.com/neon-rambutan/gplayer.png",
+    "imgUrl":"img/gplayer.png",
     "alt": "gplayer",
     "snippet":"AudioPlayer with visualizer made with Reactjs and the js AudioContext object. Not compatible with IE",
     "repo": "https://github.com/Joegrundman/gplayer-react"
@@ -49,7 +49,7 @@
   {
     "title": "stockdisplay",
     "url":"http://rs-stockdisplayapp.herokuapp.com",
-    "imgUrl":"https://s3.eu-central-1.amazonaws.com/neon-rambutan/stock-display.png",
+    "imgUrl":"img/stock-display.png",
     "alt": "stockdisplay app",
     "snippet":"Stock Price History Display with Angular2, Typescript, d3js and websocket",
     "repo": "https://github.com/Joegrundman/stockdisplayapp"
@@ -65,28 +65,28 @@
     {
     "title": "Conway's Game of Life",
     "url":"http://codepen.io/rambutan/full/ONOaaZ",
-    "imgUrl":"https://s3.eu-central-1.amazonaws.com/neon-rambutan/gameoflife.png",
+    "imgUrl":"img/gameoflife.png",
     "snippet":"Highly performant Conway's Game of Life with React, sass and html canvas. Over 500 views so far!",
     "alt":"game_of_life"
   },
     {
     "title": "Simon",
     "url":"http://codepen.io/rambutan/full/ONgZPP",
-    "imgUrl":"https://s3.eu-central-1.amazonaws.com/neon-rambutan/simon.png",
+    "imgUrl":"img/simon.png",
     "alt":"simon",
     "snippet":"Classic 1980's electronic game, using Angular1"
   },
     {
     "title": "Simple Calculator",
     "url":"http://codepen.io/rambutan/full/oxBKex",
-    "imgUrl":"https://s3.eu-central-1.amazonaws.com/neon-rambutan/calculator.png",
+    "imgUrl":"img/calculator.png",
     "alt":"calculator",
     "snippet":"Calculator made with Angularjs"
   },
     {
     "title": "Dungeon Danger",
     "url":"http://codepen.io/rambutan/full/KzxQJb/",
-    "imgUrl":"https://s3.eu-central-1.amazonaws.com/neon-rambutan/dungeon_danger.png",
+    "imgUrl":"img/dungeon_danger.png",
     "alt": "dungeon_danger",
     "snippet":"Dungeon Danger. A Roguelike game with React and Redux"
   },
@@ -94,21 +94,21 @@
     {
     "title": "Tic Tac Toe",
     "url":"http://codepen.io/rambutan/full/jqmmOe",
-    "imgUrl":"https://s3.eu-central-1.amazonaws.com/neon-rambutan/tictactoe.png",
+    "imgUrl":"img/tictactoe.png",
     "alt": "tic_tac_toe",
     "snippet":"Tic Tac Toe with perfect play algorithm and Angular1"
   },
     {
     "title": "Scatter Graph Doping on Tour de France",
     "url":"http://codepen.io/rambutan/full/bpZGJa",
-    "imgUrl":"https://s3.eu-central-1.amazonaws.com/neon-rambutan/scattergraph.png",
+    "imgUrl":"img/scattergraph.png",
     "alt": "D3.js Scatter Graph",
     "snippet":"Scatter Graph Data Visualization using D3.js to show doping in the Tour de France"
   },
   {
     "title": "Global Graph - Meteorites",
     "url":"http://codepen.io/rambutan/full/oLgxbQ",
-    "imgUrl":"https://s3.eu-central-1.amazonaws.com/neon-rambutan/meteor.png",
+    "imgUrl":"img/meteor.png",
     "alt": "D3.js World Map",
     "snippet":"World Map Data Visualization using D3.js to show meteorite strikes"
   }
